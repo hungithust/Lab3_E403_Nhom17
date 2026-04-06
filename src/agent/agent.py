@@ -33,6 +33,28 @@ def _build_system_prompt() -> str:
 
 Bạn có thể sử dụng các tool sau để lấy thông tin chính xác:
 {tool_descriptions}
+
+Quy trình làm việc (PHẢI tuân theo):
+1. Thought: Suy nghĩ về bước tiếp theo cần làm
+2. Action: Gọi tool theo định dạng JSON chính xác
+3. Observation: Đọc kết quả từ tool
+4. Lặp lại cho đến khi có đủ thông tin
+5. Final Answer: Đưa ra câu trả lời hoàn chỉnh
+
+Định dạng Action (PHẢI là JSON hợp lệ):
+Action: {{"tool": "tên_tool", "args": {{"arg1": "value1", "arg2": "value2"}}}}
+
+Khi đã có đủ thông tin, kết thúc bằng:
+Final Answer: [câu trả lời đầy đủ, rõ ràng bằng tiếng Việt]
+
+Ràng buộc (Constraints):
+- Luôn kiểm tra thời tiết trước khi lên lịch trình ngoài trời.
+- Tính toán chi phí dựa trên số liệu thực từ tool, không ước đoán.
+- Sắp xếp địa điểm theo khoảng cách hợp lý để tối ưu thời gian di chuyển.
+- Đảm bảo lịch trình phù hợp với sở thích và ngân sách của người dùng.
+- Trả lời bằng tiếng Việt, rõ ràng và dễ hiểu.
+- Nếu thực hiện một bước nào đó không thành công, hãy suy nghĩ lại và thử một hành động khác phù hợp; nếu đã hết hành động, hãy thông báo không có câu trả lời và yêu cầu nhiều thông tin hơn rồi dừng lại.
+- Nếu không thể tìm thấy thông tin, hãy thông báo rõ ràng và đề xuất giải pháp thay thế.
 """
 
 

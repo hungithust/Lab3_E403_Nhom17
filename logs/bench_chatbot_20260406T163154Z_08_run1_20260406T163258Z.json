@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_08_run1",
+  "created_at": "2026-04-06T16:32:58.930547+00:00",
+  "started_at": "2026-04-06T16:32:58.931466+00:00",
+  "finished_at": "2026-04-06T16:33:07.199088+00:00",
+  "task_type": "chatbot",
+  "query": "Gợi ý 1 ngày khám phá Hà Nội với ngân sách 800 nghìn, ưu tiên bảo tàng và món ăn địa phương.",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Với ngân sách 800 nghìn đồng, bạn hoàn toàn có thể trải nghiệm một ngày thú vị tại Hà Nội, khám phá một số bảo tàng và thưởng thức các món ăn địa phương. Dưới đây là gợi ý lịch trình cho bạn:\n\n**Sáng:**\n1. **Tham quan Bảo tàng Dân tộc học Việt Nam:**\n   - Vé vào cửa: khoảng 40.000 VND/người.\n   - Th",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:32:58.931466+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Gợi ý 1 ngày khám phá Hà Nội với ngân sách 800 nghìn, ưu tiên bảo tàng và món ăn địa phương."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:58.932469+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Gợi ý 1 ngày khám phá Hà Nội với ngân sách 800 nghìn, ưu tiên bảo tàng và món ăn địa phương."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:07.195440+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:33:07.195440+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 8261.91,
+        "prompt_tokens": 111,
+        "completion_tokens": 616,
+        "total_tokens": 727,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:07.197073+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Với ngân sách 800 nghìn đồng, bạn hoàn toàn có thể trải nghiệm một ngày thú vị tại Hà Nội, khám phá một số bảo tàng và thưởng thức các món ăn địa phương. Dưới đây là gợi ý lịch trình cho bạn:\n\n**Sáng:**\n1. **Tham quan Bảo tàng Dân tộc học Việt Nam:**\n   - Vé vào cửa: khoảng 40.000 VND/người.\n   - Thời gian tham quan: 2-3 giờ.\n   - Bảo tàng này sẽ giúp bạn hiểu rõ hơn về nền văn hóa đa dạng của các dân tộc Việt Nam.\n\n2. **Ăn sáng với Phở:**\n   - Gợi ý: Phở Bát Đàn hoặc Phở Thìn, giá khoảng 50.000 - 70.000 VND/tô.\n\n**Trưa:**\n1. **Tham quan Bảo tàng Lịch sử Quốc gia Việt Nam hoặc Bảo tàng Phụ nữ Việt Nam:**\n   - Vé vào cửa: khoảng 30.000 - 40.000 VND/người.\n   - Thời gian tham quan: 1,5 - 2 giờ.\n   - Bạn sẽ có cơ hội khám phá thêm về lịch sử và vai trò của phụ nữ trong nền văn hóa Việt Nam.\n\n2. **Ăn trưa với Bún chả:**\n   - Gợi ý: Bún Chả Đắc Kim hoặc Bún Chả Hương Liên, giá khoảng 50.000 - 80.000 VND/suất.\n\n**Chiều:**\n1. **Dạo quanh Hồ Hoàn Kiếm và tham quan Đền Ngọc Sơn:**\n   - Vé vào cửa Đền Ngọc Sơn: khoảng 30.000 VND/người.\n   - Thưởng thức không khí yên bình và cảnh đẹp, phù hợp để chụp hình và thư giãn.\n\n2. **Thưởng thức cà phê trứng tại Café Giảng:**\n   - Giá khoảng 30.000 - 40.000 VND/tách.\n   - Đây là đặc sản không nên bỏ lỡ khi tới Hà Nội.\n\n**Tối:**\n1. **Ăn tối với Nem rán hoặc Bánh tôm Hồ Tây:**\n   - Gợi ý: Quán nem Ấu Triệu hoặc Bánh tôm Hồ Tây, giá khoảng 50.000 - 100.000 VND.\n\n2. **Đi dạo phố cổ Hà Nội:**\n   - Thưởng thức không khí về đêm đầy sức sống của khu phố cổ, có thể ghé chợ đêm nếu đi vào cuối tuần.\n\nVới lịch trình này, bạn sẽ có một ngày với nhiều trải nghiệm văn hóa và ẩm thực phong phú của Hà Nội mà vẫn đảm bảo nằm trong ngân sách 800 nghìn đồng. Chúc bạn có một chuyến đi thật vui vẻ và ý nghĩa!"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:07.198081+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Với ngân sách 800 nghìn đồng, bạn hoàn toàn có thể trải nghiệm một ngày thú vị tại Hà Nội, khám phá một số bảo tàng và thưởng thức các món ăn địa phương. Dưới đây là gợi ý lịch trình cho bạn:\n\n**Sáng:**\n1. **Tham quan Bảo tàng Dân tộc học Việt Nam:**\n   - Vé vào cửa: khoảng 40.000 VND/người.\n   - Th"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:07.199088+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 8267.77,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:33:07.195440+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 8261.91,
+      "prompt_tokens": 111,
+      "completion_tokens": 616,
+      "total_tokens": 727,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Với ngân sách 800 nghìn đồng, bạn hoàn toàn có thể trải nghiệm một ngày thú vị tại Hà Nội, khám phá một số bảo tàng và thưởng thức các món ăn địa phương. Dưới đây là gợi ý lịch trình cho bạn:\n\n**Sáng:**\n1. **Tham quan Bảo tàng Dân tộc học Việt Nam:**\n   - Vé vào cửa: khoảng 40.000 VND/người.\n   - Thời gian tham quan: 2-3 giờ.\n   - Bảo tàng này sẽ giúp bạn hiểu rõ hơn về nền văn hóa đa dạng của các dân tộc Việt Nam.\n\n2. **Ăn sáng với Phở:**\n   - Gợi ý: Phở Bát Đàn hoặc Phở Thìn, giá khoảng 50.000 - 70.000 VND/tô.\n\n**Trưa:**\n1. **Tham quan Bảo tàng Lịch sử Quốc gia Việt Nam hoặc Bảo tàng Phụ nữ Việt Nam:**\n   - Vé vào cửa: khoảng 30.000 - 40.000 VND/người.\n   - Thời gian tham quan: 1,5 - 2 giờ.\n   - Bạn sẽ có cơ hội khám phá thêm về lịch sử và vai trò của phụ nữ trong nền văn hóa Việt Nam.\n\n2. **Ăn trưa với Bún chả:**\n   - Gợi ý: Bún Chả Đắc Kim hoặc Bún Chả Hương Liên, giá khoảng 50.000 - 80.000 VND/suất.\n\n**Chiều:**\n1. **Dạo quanh Hồ Hoàn Kiếm và tham quan Đền Ngọc Sơn:**\n   - Vé vào cửa Đền Ngọc Sơn: khoảng 30.000 VND/người.\n   - Thưởng thức không khí yên bình và cảnh đẹp, phù hợp để chụp hình và thư giãn.\n\n2. **Thưởng thức cà phê trứng tại Café Giảng:**\n   - Giá khoảng 30.000 - 40.000 VND/tách.\n   - Đây là đặc sản không nên bỏ lỡ khi tới Hà Nội.\n\n**Tối:**\n1. **Ăn tối với Nem rán hoặc Bánh tôm Hồ Tây:**\n   - Gợi ý: Quán nem Ấu Triệu hoặc Bánh tôm Hồ Tây, giá khoảng 50.000 - 100.000 VND.\n\n2. **Đi dạo phố cổ Hà Nội:**\n   - Thưởng thức không khí về đêm đầy sức sống của khu phố cổ, có thể ghé chợ đêm nếu đi vào cuối tuần.\n\nVới lịch trình này, bạn sẽ có một ngày với nhiều trải nghiệm văn hóa và ẩm thực phong phú của Hà Nội mà vẫn đảm bảo nằm trong ngân sách 800 nghìn đồng. Chúc bạn có một chuyến đi thật vui vẻ và ý nghĩa!",
+  "metrics": {
+    "duration_ms": 8267.77,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 111,
+    "completion_tokens": 616,
+    "total_tokens": 727,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_01_run1",
+  "created_at": "2026-04-06T16:31:56.705201+00:00",
+  "started_at": "2026-04-06T16:31:56.708202+00:00",
+  "finished_at": "2026-04-06T16:32:08.135663+00:00",
+  "task_type": "chatbot",
+  "query": "Tôi có 3 ngày ở Đà Nẵng, ngân sách 2 triệu/ngày, thích ăn hải sản và leo núi. Gợi ý lịch trình và ước tính tổng chi phí.",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Với 3 ngày ở Đà Nẵng, ngân sách 2 triệu/ngày và sở thích ăn hải sản, leo núi, mình xin gợi ý cho bạn lịch trình như sau:\n\n**Ngày 1: Khám phá Đà Nẵng**\n- **Sáng**: Tham quan Bà Nà Hills. Bạn có thể đi cáp treo, ngắm Cầu Vàng và khám phá làng Pháp. Vé cáp treo khoảng 850,000 VND/người.\n- **Trưa**: Ăn ",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:31:56.708202+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Tôi có 3 ngày ở Đà Nẵng, ngân sách 2 triệu/ngày, thích ăn hải sản và leo núi. Gợi ý lịch trình và ước tính tổng chi phí."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:31:56.709202+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Tôi có 3 ngày ở Đà Nẵng, ngân sách 2 triệu/ngày, thích ăn hải sản và leo núi. Gợi ý lịch trình và ước tính tổng chi phí."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:08.133663+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:32:08.133663+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 11423.81,
+        "prompt_tokens": 125,
+        "completion_tokens": 685,
+        "total_tokens": 810,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:08.134661+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Với 3 ngày ở Đà Nẵng, ngân sách 2 triệu/ngày và sở thích ăn hải sản, leo núi, mình xin gợi ý cho bạn lịch trình như sau:\n\n**Ngày 1: Khám phá Đà Nẵng**\n- **Sáng**: Tham quan Bà Nà Hills. Bạn có thể đi cáp treo, ngắm Cầu Vàng và khám phá làng Pháp. Vé cáp treo khoảng 850,000 VND/người.\n- **Trưa**: Ăn trưa ngay trong khu vực Bà Nà Hills hoặc khi trở về thành phố.\n- **Chiều**: Tham quan Ngũ Hành Sơn, leo núi và khám phá các hang động, chùa chiền.\n- **Tối**: Dùng bữa tối với hải sản tại một nhà hàng ven biển như Bà Thôi hoặc Bé Mặn. Chi phí khoảng 300,000 - 500,000 VND/người.\n\n**Ngày 2: Hội An**\n- **Sáng**: Di chuyển đến Hội An, khám phá phố cổ. Thưởng thức ẩm thực địa phương với các món đặc trưng như cao lầu, bánh mì Phượng.\n- **Chiều**: Tham quan Làng gốm Thanh Hà hoặc Làng rau Trà Quế. Thuê xe đạp để khám phá vùng quê.\n- **Tối**: Trở về Đà Nẵng, thưởng thức hải sản ở một nhà hàng khác hoặc thử các món đặc sản địa phương.\n\n**Ngày 3: Khám phá Bán đảo Sơn Trà**\n- **Sáng**: Thuê xe máy hoặc xe ô tô đi Bán đảo Sơn Trà, ghé thăm chùa Linh Ứng, Đỉnh Bàn Cờ leo núi và ngắm cảnh.\n- **Trưa**: Ăn uống tại các quán địa phương trên đường về.\n- **Chiều**: Tự do tắm biển hoặc thư giãn trên bãi biển Mỹ Khê.\n- **Tối**: Trải nghiệm một quán ăn đêm với các món hải sản hoặc tham quan Cầu Rồng nếu có cơ hội đúng vào cuối tuần để ngắm cầu phun lửa, phun nước.\n\n**Ước tính chi phí chung cho 3 ngày:**\n- Lưu trú: Nếu bạn chọn khách sạn trung bình 3 sao, chi phí khoảng 500,000 - 1,000,000 VND/ngày.\n- Ăn uống: 500,000 - 700,000 VND/ngày cho ăn uống hải sản và các bữa phụ.\n- Di chuyển: Thuê xe máy khoảng 150,000 VND/ngày hoặc taxi/grab tùy theo nhu cầu.\n- Vé tham quan: Khoảng 1,000,000 - 1,500,000 VND/người bao gồm các điểm như Bà Nà Hills, Hội An, v.v.\n\nTổng chi phí dự kiến cho 3 ngày vào khoảng 5 - 6 triệu VND/người, tùy vào lựa chọn lưu trú và ăn uống của bạn. Chúc bạn có chuyến đi vui vẻ!"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:08.134661+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Với 3 ngày ở Đà Nẵng, ngân sách 2 triệu/ngày và sở thích ăn hải sản, leo núi, mình xin gợi ý cho bạn lịch trình như sau:\n\n**Ngày 1: Khám phá Đà Nẵng**\n- **Sáng**: Tham quan Bà Nà Hills. Bạn có thể đi cáp treo, ngắm Cầu Vàng và khám phá làng Pháp. Vé cáp treo khoảng 850,000 VND/người.\n- **Trưa**: Ăn "
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:08.135663+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 11427.59,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:32:08.133663+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 11423.81,
+      "prompt_tokens": 125,
+      "completion_tokens": 685,
+      "total_tokens": 810,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Với 3 ngày ở Đà Nẵng, ngân sách 2 triệu/ngày và sở thích ăn hải sản, leo núi, mình xin gợi ý cho bạn lịch trình như sau:\n\n**Ngày 1: Khám phá Đà Nẵng**\n- **Sáng**: Tham quan Bà Nà Hills. Bạn có thể đi cáp treo, ngắm Cầu Vàng và khám phá làng Pháp. Vé cáp treo khoảng 850,000 VND/người.\n- **Trưa**: Ăn trưa ngay trong khu vực Bà Nà Hills hoặc khi trở về thành phố.\n- **Chiều**: Tham quan Ngũ Hành Sơn, leo núi và khám phá các hang động, chùa chiền.\n- **Tối**: Dùng bữa tối với hải sản tại một nhà hàng ven biển như Bà Thôi hoặc Bé Mặn. Chi phí khoảng 300,000 - 500,000 VND/người.\n\n**Ngày 2: Hội An**\n- **Sáng**: Di chuyển đến Hội An, khám phá phố cổ. Thưởng thức ẩm thực địa phương với các món đặc trưng như cao lầu, bánh mì Phượng.\n- **Chiều**: Tham quan Làng gốm Thanh Hà hoặc Làng rau Trà Quế. Thuê xe đạp để khám phá vùng quê.\n- **Tối**: Trở về Đà Nẵng, thưởng thức hải sản ở một nhà hàng khác hoặc thử các món đặc sản địa phương.\n\n**Ngày 3: Khám phá Bán đảo Sơn Trà**\n- **Sáng**: Thuê xe máy hoặc xe ô tô đi Bán đảo Sơn Trà, ghé thăm chùa Linh Ứng, Đỉnh Bàn Cờ leo núi và ngắm cảnh.\n- **Trưa**: Ăn uống tại các quán địa phương trên đường về.\n- **Chiều**: Tự do tắm biển hoặc thư giãn trên bãi biển Mỹ Khê.\n- **Tối**: Trải nghiệm một quán ăn đêm với các món hải sản hoặc tham quan Cầu Rồng nếu có cơ hội đúng vào cuối tuần để ngắm cầu phun lửa, phun nước.\n\n**Ước tính chi phí chung cho 3 ngày:**\n- Lưu trú: Nếu bạn chọn khách sạn trung bình 3 sao, chi phí khoảng 500,000 - 1,000,000 VND/ngày.\n- Ăn uống: 500,000 - 700,000 VND/ngày cho ăn uống hải sản và các bữa phụ.\n- Di chuyển: Thuê xe máy khoảng 150,000 VND/ngày hoặc taxi/grab tùy theo nhu cầu.\n- Vé tham quan: Khoảng 1,000,000 - 1,500,000 VND/người bao gồm các điểm như Bà Nà Hills, Hội An, v.v.\n\nTổng chi phí dự kiến cho 3 ngày vào khoảng 5 - 6 triệu VND/người, tùy vào lựa chọn lưu trú và ăn uống của bạn. Chúc bạn có chuyến đi vui vẻ!",
+  "metrics": {
+    "duration_ms": 11427.59,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 125,
+    "completion_tokens": 685,
+    "total_tokens": 810,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

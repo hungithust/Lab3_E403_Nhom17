@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_10_run1",
+  "created_at": "2026-04-06T16:33:17.346289+00:00",
+  "started_at": "2026-04-06T16:33:17.350288+00:00",
+  "finished_at": "2026-04-06T16:33:25.317741+00:00",
+  "task_type": "chatbot",
+  "query": "Tôi có 1,5 triệu/ngày ở Sapa, thích leo núi và đồ ăn địa phương. Hãy đề xuất lịch trình 2 ngày.",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Bạn đã chọn Sapa, một điểm đến tuyệt vời để khám phá thiên nhiên và văn hóa địa phương! Dưới đây là gợi ý lịch trình 2 ngày với ngân sách 1,5 triệu VND/ngày:\n\n### Ngày 1: Khám phá Sapa và ẩm thực địa phương\n\n- **Buổi sáng:**\n  - **Núi Hàm Rồng:** Để bắt đầu ngày mới, bạn có thể tham quan Núi Hàm Rồn",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:33:17.350288+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Tôi có 1,5 triệu/ngày ở Sapa, thích leo núi và đồ ăn địa phương. Hãy đề xuất lịch trình 2 ngày."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:17.351290+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Tôi có 1,5 triệu/ngày ở Sapa, thích leo núi và đồ ăn địa phương. Hãy đề xuất lịch trình 2 ngày."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:25.315738+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:33:25.315738+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 7962.93,
+        "prompt_tokens": 115,
+        "completion_tokens": 652,
+        "total_tokens": 767,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:25.315738+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Bạn đã chọn Sapa, một điểm đến tuyệt vời để khám phá thiên nhiên và văn hóa địa phương! Dưới đây là gợi ý lịch trình 2 ngày với ngân sách 1,5 triệu VND/ngày:\n\n### Ngày 1: Khám phá Sapa và ẩm thực địa phương\n\n- **Buổi sáng:**\n  - **Núi Hàm Rồng:** Để bắt đầu ngày mới, bạn có thể tham quan Núi Hàm Rồng, nằm ngay trung tâm Sapa với giá vé khoảng 70,000 VND/người. Từ đây, bạn có thể ngắm nhìn toàn cảnh thị trấn và xung quanh.\n  \n- **Buổi trưa:**\n  - Dùng bữa trưa tại một quán ăn địa phương. Bạn có thể thử món \"lợn cắp nách\", cơm lam hay thắng cố, giá khoảng 100,000 VND/người.\n\n- **Buổi chiều:**\n  - **Bản Cát Cát:** Tiếp tục di chuyển đến bản Cát Cát, nơi có những ngôi nhà cổ và làng nghề truyền thống của người H'Mông. Vé tham quan khoảng 90,000 VND/người.\n  \n- **Buổi tối:**\n  - Khám phá chợ đêm Sapa và thưởng thức các món ăn vặt như thịt xiên nướng, hạt dẻ, cơm lam nướng. Bữa tối tại chợ đêm có thể dao động khoảng 150,000 VND/người.\n\n### Ngày 2: Chinh phục Fansipan và thư giãn\n\n- **Buổi sáng:**\n  - **Leo núi Fansipan:** Nếu bạn đam mê leo núi, bạn có thể tham gia tour leo núi Fansipan trong ngày. Nếu muốn tiết kiệm sức lực, bạn có thể chọn đi cáp treo (giá vé khứ hồi khoảng 750,000 VND/người) và leo bộ khoảng 600 bậc để lên đỉnh.\n  \n- **Buổi trưa:**\n  - Ăn trưa nhẹ trên đường tại các quầy ăn tại ga cáp treo hoặc trở về trung tâm Sapa dùng bữa tại nhà hàng với ngân sách 100,000 VND/người.\n\n- **Buổi chiều:**\n  - Sau khi chinh phục Fansipan, trở về trung tâm thư giãn tại một quán cà phê có view đẹp như The Hill Station hay Gem Valley với giá chỉ tầm 50,000 - 70,000 VND/ly đồ uống.\n  \n- **Buổi tối:**\n  - Thưởng thức bữa tối tại một nhà hàng địa phương, chi phí khoảng 200,000 VND/người.\n\nVới kế hoạch này, bạn sẽ có một chuyến đi đáng nhớ và đầy trải nghiệm tại Sapa. Đừng quên kiểm tra thời tiết trước khi đi và mang theo đầy đủ quần áo ấm vì Sapa có thể lạnh, đặc biệt vào buổi tối. Chúc bạn có chuyến đi vui vẻ!"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:25.316739+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Bạn đã chọn Sapa, một điểm đến tuyệt vời để khám phá thiên nhiên và văn hóa địa phương! Dưới đây là gợi ý lịch trình 2 ngày với ngân sách 1,5 triệu VND/ngày:\n\n### Ngày 1: Khám phá Sapa và ẩm thực địa phương\n\n- **Buổi sáng:**\n  - **Núi Hàm Rồng:** Để bắt đầu ngày mới, bạn có thể tham quan Núi Hàm Rồn"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:25.317741+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 7967.37,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:33:25.315738+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 7962.93,
+      "prompt_tokens": 115,
+      "completion_tokens": 652,
+      "total_tokens": 767,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Bạn đã chọn Sapa, một điểm đến tuyệt vời để khám phá thiên nhiên và văn hóa địa phương! Dưới đây là gợi ý lịch trình 2 ngày với ngân sách 1,5 triệu VND/ngày:\n\n### Ngày 1: Khám phá Sapa và ẩm thực địa phương\n\n- **Buổi sáng:**\n  - **Núi Hàm Rồng:** Để bắt đầu ngày mới, bạn có thể tham quan Núi Hàm Rồng, nằm ngay trung tâm Sapa với giá vé khoảng 70,000 VND/người. Từ đây, bạn có thể ngắm nhìn toàn cảnh thị trấn và xung quanh.\n  \n- **Buổi trưa:**\n  - Dùng bữa trưa tại một quán ăn địa phương. Bạn có thể thử món \"lợn cắp nách\", cơm lam hay thắng cố, giá khoảng 100,000 VND/người.\n\n- **Buổi chiều:**\n  - **Bản Cát Cát:** Tiếp tục di chuyển đến bản Cát Cát, nơi có những ngôi nhà cổ và làng nghề truyền thống của người H'Mông. Vé tham quan khoảng 90,000 VND/người.\n  \n- **Buổi tối:**\n  - Khám phá chợ đêm Sapa và thưởng thức các món ăn vặt như thịt xiên nướng, hạt dẻ, cơm lam nướng. Bữa tối tại chợ đêm có thể dao động khoảng 150,000 VND/người.\n\n### Ngày 2: Chinh phục Fansipan và thư giãn\n\n- **Buổi sáng:**\n  - **Leo núi Fansipan:** Nếu bạn đam mê leo núi, bạn có thể tham gia tour leo núi Fansipan trong ngày. Nếu muốn tiết kiệm sức lực, bạn có thể chọn đi cáp treo (giá vé khứ hồi khoảng 750,000 VND/người) và leo bộ khoảng 600 bậc để lên đỉnh.\n  \n- **Buổi trưa:**\n  - Ăn trưa nhẹ trên đường tại các quầy ăn tại ga cáp treo hoặc trở về trung tâm Sapa dùng bữa tại nhà hàng với ngân sách 100,000 VND/người.\n\n- **Buổi chiều:**\n  - Sau khi chinh phục Fansipan, trở về trung tâm thư giãn tại một quán cà phê có view đẹp như The Hill Station hay Gem Valley với giá chỉ tầm 50,000 - 70,000 VND/ly đồ uống.\n  \n- **Buổi tối:**\n  - Thưởng thức bữa tối tại một nhà hàng địa phương, chi phí khoảng 200,000 VND/người.\n\nVới kế hoạch này, bạn sẽ có một chuyến đi đáng nhớ và đầy trải nghiệm tại Sapa. Đừng quên kiểm tra thời tiết trước khi đi và mang theo đầy đủ quần áo ấm vì Sapa có thể lạnh, đặc biệt vào buổi tối. Chúc bạn có chuyến đi vui vẻ!",
+  "metrics": {
+    "duration_ms": 7967.37,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 115,
+    "completion_tokens": 652,
+    "total_tokens": 767,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

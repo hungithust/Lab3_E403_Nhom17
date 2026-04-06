@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_04_run1",
+  "created_at": "2026-04-06T16:32:23.390378+00:00",
+  "started_at": "2026-04-06T16:32:23.390378+00:00",
+  "finished_at": "2026-04-06T16:32:33.764438+00:00",
+  "task_type": "chatbot",
+  "query": "Tôi ở Huế 2 ngày, thích lịch sử và đồ ăn địa phương. Hãy lên lịch trình tiết kiệm.",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Dưới đây là một lịch trình tiết kiệm trong 2 ngày tại Huế dành cho bạn:\n\n**Ngày 1: Khám phá di sản lịch sử**\n\n- **Sáng:**\n  - **Đại Nội Huế**: Bắt đầu ngày với chuyến thăm Kinh thành Huế - nơi lưu giữ nhiều giá trị lịch sử và văn hóa thời Nguyễn. Vé vào cửa khoảng 150.000 VND.\n  - **Cung Diên Thọ**:",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:32:23.390378+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Tôi ở Huế 2 ngày, thích lịch sử và đồ ăn địa phương. Hãy lên lịch trình tiết kiệm."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:23.391713+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Tôi ở Huế 2 ngày, thích lịch sử và đồ ăn địa phương. Hãy lên lịch trình tiết kiệm."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:33.761407+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:32:33.761407+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 10369.14,
+        "prompt_tokens": 108,
+        "completion_tokens": 660,
+        "total_tokens": 768,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:33.762429+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Dưới đây là một lịch trình tiết kiệm trong 2 ngày tại Huế dành cho bạn:\n\n**Ngày 1: Khám phá di sản lịch sử**\n\n- **Sáng:**\n  - **Đại Nội Huế**: Bắt đầu ngày với chuyến thăm Kinh thành Huế - nơi lưu giữ nhiều giá trị lịch sử và văn hóa thời Nguyễn. Vé vào cửa khoảng 150.000 VND.\n  - **Cung Diên Thọ**: Nơi ở của Hoàng thái hậu, không thể bỏ qua khi thăm Đại Nội.\n\n- **Trưa:**\n  - **Ăn trưa tại chợ Đông Ba**: Đây là nơi lý tưởng để thưởng thức đặc sản Huế như bún bò Huế, bánh bèo, bánh nậm với giá cả phải chăng.\n\n- **Chiều:**\n  - **Lăng Tự Đức**: Một trong những lăng mộ đẹp nhất của các vua triều Nguyễn. Vé vào khoảng 100.000 VND.\n  - **Chùa Thiên Mụ**: Điểm đến không chỉ nổi tiếng với vẻ đẹp cổ kính mà còn miễn phí vé vào.\n\n- **Tối:**\n  - **Dạo phố đi bộ Nguyễn Đình Chiểu và thưởng thức cơm hến**: Món ăn bình dân nhưng đậm đà hương vị Huế. Giá khá hợp lý, chỉ từ 20.000 - 30.000 VND.\n\n**Ngày 2: Thưởng thức ẩm thực và văn hóa địa phương**\n\n- **Sáng:**\n  - **Khám phá Lăng Minh Mạng**: Một công trình kiến trúc tổng thể đẹp và hài hòa với thiên nhiên, vé vào cửa khoảng 100.000 VND.\n  - **Trở về trung tâm thành phố** và thưởng thức bữa sáng với bánh canh Nam Phổ.\n\n- **Trưa:**\n  - **Quan sát và ăn trưa tại làng Hương Thủy Xuân**: Tham quan làng nghề truyền thống làm nón lá và hương trầm, bạn có thể thử nhiều món ăn ngon tại các quán ăn giản dị xung quanh.\n\n- **Chiều:**\n  - **Thăm quan trường Quốc học Huế**: Một trường trung học hơn 120 năm tuổi, nơi ra đời nhiều người nổi tiếng của Việt Nam.\n  - **Đại học Huế - Khuôn viên xanh**: Đây cũng là nơi thích hợp để đi dạo và thư giãn.\n\n- **Tối:**\n  - **Thưởng thức món bánh khoái**: Một đặc sản tại quán Lạc Thạnh hoặc quán Thượng Tứ gần cầu Trường Tiền.\n  - **Dạo chơi thuyền rồng trên sông Hương**: Kết thúc chuyến đi với một buổi trình diễn nghe hát dân ca Huế trên thuyền. Giá dao động từ 100.000 - 150.000 VND/người.\n\nChúc bạn có một chuyến đi tuyệt vời tại Huế với nhiều trải nghiệm lịch sử và ẩm thực đáng nhớ!"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:33.763437+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Dưới đây là một lịch trình tiết kiệm trong 2 ngày tại Huế dành cho bạn:\n\n**Ngày 1: Khám phá di sản lịch sử**\n\n- **Sáng:**\n  - **Đại Nội Huế**: Bắt đầu ngày với chuyến thăm Kinh thành Huế - nơi lưu giữ nhiều giá trị lịch sử và văn hóa thời Nguyễn. Vé vào cửa khoảng 150.000 VND.\n  - **Cung Diên Thọ**:"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:33.764438+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 10373.83,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:32:33.761407+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 10369.14,
+      "prompt_tokens": 108,
+      "completion_tokens": 660,
+      "total_tokens": 768,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Dưới đây là một lịch trình tiết kiệm trong 2 ngày tại Huế dành cho bạn:\n\n**Ngày 1: Khám phá di sản lịch sử**\n\n- **Sáng:**\n  - **Đại Nội Huế**: Bắt đầu ngày với chuyến thăm Kinh thành Huế - nơi lưu giữ nhiều giá trị lịch sử và văn hóa thời Nguyễn. Vé vào cửa khoảng 150.000 VND.\n  - **Cung Diên Thọ**: Nơi ở của Hoàng thái hậu, không thể bỏ qua khi thăm Đại Nội.\n\n- **Trưa:**\n  - **Ăn trưa tại chợ Đông Ba**: Đây là nơi lý tưởng để thưởng thức đặc sản Huế như bún bò Huế, bánh bèo, bánh nậm với giá cả phải chăng.\n\n- **Chiều:**\n  - **Lăng Tự Đức**: Một trong những lăng mộ đẹp nhất của các vua triều Nguyễn. Vé vào khoảng 100.000 VND.\n  - **Chùa Thiên Mụ**: Điểm đến không chỉ nổi tiếng với vẻ đẹp cổ kính mà còn miễn phí vé vào.\n\n- **Tối:**\n  - **Dạo phố đi bộ Nguyễn Đình Chiểu và thưởng thức cơm hến**: Món ăn bình dân nhưng đậm đà hương vị Huế. Giá khá hợp lý, chỉ từ 20.000 - 30.000 VND.\n\n**Ngày 2: Thưởng thức ẩm thực và văn hóa địa phương**\n\n- **Sáng:**\n  - **Khám phá Lăng Minh Mạng**: Một công trình kiến trúc tổng thể đẹp và hài hòa với thiên nhiên, vé vào cửa khoảng 100.000 VND.\n  - **Trở về trung tâm thành phố** và thưởng thức bữa sáng với bánh canh Nam Phổ.\n\n- **Trưa:**\n  - **Quan sát và ăn trưa tại làng Hương Thủy Xuân**: Tham quan làng nghề truyền thống làm nón lá và hương trầm, bạn có thể thử nhiều món ăn ngon tại các quán ăn giản dị xung quanh.\n\n- **Chiều:**\n  - **Thăm quan trường Quốc học Huế**: Một trường trung học hơn 120 năm tuổi, nơi ra đời nhiều người nổi tiếng của Việt Nam.\n  - **Đại học Huế - Khuôn viên xanh**: Đây cũng là nơi thích hợp để đi dạo và thư giãn.\n\n- **Tối:**\n  - **Thưởng thức món bánh khoái**: Một đặc sản tại quán Lạc Thạnh hoặc quán Thượng Tứ gần cầu Trường Tiền.\n  - **Dạo chơi thuyền rồng trên sông Hương**: Kết thúc chuyến đi với một buổi trình diễn nghe hát dân ca Huế trên thuyền. Giá dao động từ 100.000 - 150.000 VND/người.\n\nChúc bạn có một chuyến đi tuyệt vời tại Huế với nhiều trải nghiệm lịch sử và ẩm thực đáng nhớ!",
+  "metrics": {
+    "duration_ms": 10373.83,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 108,
+    "completion_tokens": 660,
+    "total_tokens": 768,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

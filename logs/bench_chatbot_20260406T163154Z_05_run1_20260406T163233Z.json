@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_05_run1",
+  "created_at": "2026-04-06T16:32:33.786407+00:00",
+  "started_at": "2026-04-06T16:32:33.790414+00:00",
+  "finished_at": "2026-04-06T16:32:45.776596+00:00",
+  "task_type": "chatbot",
+  "query": "Lập kế hoạch đi Nha Trang 3 ngày cho cặp đôi, ưu tiên biển và hải sản, ngân sách 6 triệu tổng.",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Dưới đây là gợi ý lịch trình 3 ngày tại Nha Trang cho cặp đôi với ngân sách 6 triệu đồng, ưu tiên biển và hải sản:\n\n**Ngày 1:**\n- **Sáng:**\n  - Bay hoặc đi xe đến Nha Trang, về khách sạn nhận phòng. Bạn có thể tìm khách sạn gần biển, giá khoảng 500.000 - 700.000 đồng/đêm.\n  - Tham quan Bãi Dài, một ",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:32:33.790414+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Lập kế hoạch đi Nha Trang 3 ngày cho cặp đôi, ưu tiên biển và hải sản, ngân sách 6 triệu tổng."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:33.791413+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Lập kế hoạch đi Nha Trang 3 ngày cho cặp đôi, ưu tiên biển và hải sản, ngân sách 6 triệu tổng."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:45.775596+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:32:45.774597+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 11982.9,
+        "prompt_tokens": 113,
+        "completion_tokens": 668,
+        "total_tokens": 781,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:45.775596+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Dưới đây là gợi ý lịch trình 3 ngày tại Nha Trang cho cặp đôi với ngân sách 6 triệu đồng, ưu tiên biển và hải sản:\n\n**Ngày 1:**\n- **Sáng:**\n  - Bay hoặc đi xe đến Nha Trang, về khách sạn nhận phòng. Bạn có thể tìm khách sạn gần biển, giá khoảng 500.000 - 700.000 đồng/đêm.\n  - Tham quan Bãi Dài, một bãi biển đẹp cách trung tâm Nha Trang khoảng 25 km. Thưởng thức không khí trong lành, tắm biển.\n\n- **Trưa:**\n  - Ăn trưa tại một quán hải sản ở Làng Chài gần Bãi Dài. Chi phí khoảng 300.000 - 500.000 đồng cho hai người.\n\n- **Chiều:**\n  - Về lại trung tâm, tham quan Tháp Bà Ponagar và Tháp Trầm Hương.\n  - Thả bộ dọc theo biển Trần Phú, chụp ảnh, tận hưởng phong cảnh.\n\n- **Tối:**\n  - Thưởng thức bữa tối lãng mạn tại nhà hàng Hải Sản Làng Tôm hoặc nhà hàng Bến Cảng, với chi phí khoảng 500.000 đồng.\n\n**Ngày 2:**\n- **Sáng:**\n  - Tham gia tour đi 4 đảo (Hòn Mun, Hòn Một, Bãi Tranh, Thủy cung Trí Nguyên). Giá tour khoảng 600.000 đồng/người bao gồm ăn uống.\n\n- **Chiều:**\n  - Về khách sạn nghỉ ngơi hoặc trải nghiệm tắm bùn ở khu du lịch suối khoáng nóng Tháp Bà, giá vé khoảng 150.000 đồng/người.\n\n- **Tối:**\n  - Dạo chợ đêm Nha Trang thưởng thức các món ăn đường phố hoặc hải sản, chi phí khoảng 300.000 đồng.\n\n**Ngày 3:**\n- **Sáng:**\n  - Tham quan Vinpearl Land nếu bạn thích các hoạt động vui chơi giải trí, chi phí vé cáp treo khoảng 880.000 đồng/người.\n  - Nếu muốn tiết kiệm, bạn có thể ghé thăm Hòn Chồng hoặc Viện Hải Dương học.\n\n- **Trưa:**\n  - Ăn trưa tại Vinpearl hoặc trở lại trung tâm, nhà hàng Ngọc Trai có buffet nướng hải sản.\n\n- **Chiều:**\n  - Thư giãn tại biển, mua đồ lưu niệm trước khi rời Nha Trang.\n\n- **Tối:**\n  - Lên đường về nhà.\n\nDự trù ngân sách cho chuyến đi này có thể như sau:\n- Vé máy bay/xe và các phương tiện đi lại: 2 triệu\n- Khách sạn: 1,5 triệu\n- Ăn uống: 1,5 triệu\n- Vé tham quan và hoạt động: 1 triệu\n\nChúc bạn có chuyến đi thật lãng mạn và đáng nhớ tại Nha Trang!"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:45.776596+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Dưới đây là gợi ý lịch trình 3 ngày tại Nha Trang cho cặp đôi với ngân sách 6 triệu đồng, ưu tiên biển và hải sản:\n\n**Ngày 1:**\n- **Sáng:**\n  - Bay hoặc đi xe đến Nha Trang, về khách sạn nhận phòng. Bạn có thể tìm khách sạn gần biển, giá khoảng 500.000 - 700.000 đồng/đêm.\n  - Tham quan Bãi Dài, một "
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:45.776596+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 11986.67,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:32:45.774597+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 11982.9,
+      "prompt_tokens": 113,
+      "completion_tokens": 668,
+      "total_tokens": 781,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Dưới đây là gợi ý lịch trình 3 ngày tại Nha Trang cho cặp đôi với ngân sách 6 triệu đồng, ưu tiên biển và hải sản:\n\n**Ngày 1:**\n- **Sáng:**\n  - Bay hoặc đi xe đến Nha Trang, về khách sạn nhận phòng. Bạn có thể tìm khách sạn gần biển, giá khoảng 500.000 - 700.000 đồng/đêm.\n  - Tham quan Bãi Dài, một bãi biển đẹp cách trung tâm Nha Trang khoảng 25 km. Thưởng thức không khí trong lành, tắm biển.\n\n- **Trưa:**\n  - Ăn trưa tại một quán hải sản ở Làng Chài gần Bãi Dài. Chi phí khoảng 300.000 - 500.000 đồng cho hai người.\n\n- **Chiều:**\n  - Về lại trung tâm, tham quan Tháp Bà Ponagar và Tháp Trầm Hương.\n  - Thả bộ dọc theo biển Trần Phú, chụp ảnh, tận hưởng phong cảnh.\n\n- **Tối:**\n  - Thưởng thức bữa tối lãng mạn tại nhà hàng Hải Sản Làng Tôm hoặc nhà hàng Bến Cảng, với chi phí khoảng 500.000 đồng.\n\n**Ngày 2:**\n- **Sáng:**\n  - Tham gia tour đi 4 đảo (Hòn Mun, Hòn Một, Bãi Tranh, Thủy cung Trí Nguyên). Giá tour khoảng 600.000 đồng/người bao gồm ăn uống.\n\n- **Chiều:**\n  - Về khách sạn nghỉ ngơi hoặc trải nghiệm tắm bùn ở khu du lịch suối khoáng nóng Tháp Bà, giá vé khoảng 150.000 đồng/người.\n\n- **Tối:**\n  - Dạo chợ đêm Nha Trang thưởng thức các món ăn đường phố hoặc hải sản, chi phí khoảng 300.000 đồng.\n\n**Ngày 3:**\n- **Sáng:**\n  - Tham quan Vinpearl Land nếu bạn thích các hoạt động vui chơi giải trí, chi phí vé cáp treo khoảng 880.000 đồng/người.\n  - Nếu muốn tiết kiệm, bạn có thể ghé thăm Hòn Chồng hoặc Viện Hải Dương học.\n\n- **Trưa:**\n  - Ăn trưa tại Vinpearl hoặc trở lại trung tâm, nhà hàng Ngọc Trai có buffet nướng hải sản.\n\n- **Chiều:**\n  - Thư giãn tại biển, mua đồ lưu niệm trước khi rời Nha Trang.\n\n- **Tối:**\n  - Lên đường về nhà.\n\nDự trù ngân sách cho chuyến đi này có thể như sau:\n- Vé máy bay/xe và các phương tiện đi lại: 2 triệu\n- Khách sạn: 1,5 triệu\n- Ăn uống: 1,5 triệu\n- Vé tham quan và hoạt động: 1 triệu\n\nChúc bạn có chuyến đi thật lãng mạn và đáng nhớ tại Nha Trang!",
+  "metrics": {
+    "duration_ms": 11986.67,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 113,
+    "completion_tokens": 668,
+    "total_tokens": 781,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_06_run1",
+  "created_at": "2026-04-06T16:32:45.788602+00:00",
+  "started_at": "2026-04-06T16:32:45.788602+00:00",
+  "finished_at": "2026-04-06T16:32:52.957758+00:00",
+  "task_type": "chatbot",
+  "query": "Nếu ở Đà Lạt 2 ngày trời mưa thì nên đi đâu và chi bao nhiêu tiền?",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Khi ở Đà Lạt trong 2 ngày mà trời mưa, bạn vẫn có nhiều lựa chọn thú vị để khám phá những điểm trong nhà. Dưới đây là một số gợi ý và chi phí ước tính:\n\n1. **Thăm các quán cà phê nổi tiếng**: Nhiều quán có không gian đẹp và lý tưởng để ngắm mưa. Một số quán được yêu thích là Mê Linh Coffee Garden (c",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:32:45.788602+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Nếu ở Đà Lạt 2 ngày trời mưa thì nên đi đâu và chi bao nhiêu tiền?"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:45.790056+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Nếu ở Đà Lạt 2 ngày trời mưa thì nên đi đâu và chi bao nhiêu tiền?"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:52.955758+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:32:52.955758+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 7165.5,
+        "prompt_tokens": 105,
+        "completion_tokens": 500,
+        "total_tokens": 605,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:52.956759+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Khi ở Đà Lạt trong 2 ngày mà trời mưa, bạn vẫn có nhiều lựa chọn thú vị để khám phá những điểm trong nhà. Dưới đây là một số gợi ý và chi phí ước tính:\n\n1. **Thăm các quán cà phê nổi tiếng**: Nhiều quán có không gian đẹp và lý tưởng để ngắm mưa. Một số quán được yêu thích là Mê Linh Coffee Garden (có tầm nhìn ra đồi núi), The Married Beans, hay An Café. Giá nước uống dao động từ 30.000 - 70.000 VNĐ mỗi ly.\n\n2. **Tham quan các bảo tàng và nhà trưng bày**:\n   - **Dinh Bảo Đại**: Tòa dinh thự lịch sử với kiến trúc hoàng gia Pháp. Vé vào cửa khoảng 20.000 VNĐ.\n   - **Crazy House**: Còn được biết đến với tên gọi là Biệt thự Hằng Nga, nơi này thu hút du khách bởi kiến trúc kỳ quái và độc đáo. Vé vào cửa khoảng 50.000 VNĐ.\n\n3. **Tham quan các làng nghề và mua sắm**:\n   - **Làng tranh thêu XQ Đà Lạt**: Tại đây bạn có thể xem quá trình làm tranh thêu truyền thống. Vé vào cổng miễn phí, bạn có thể mua vài bức tranh thêu làm kỷ niệm.\n\n4. **Thư giãn trong spa hoặc massage**: Đà Lạt có nhiều dịch vụ spa thư giãn, giúp bạn tận hưởng không khí se lạnh. Giá tham khảo khoảng 200.000 - 500.000 VNĐ/lần.\n\n5. **Khám phá các nhà hàng nổi tiếng**: Thưởng thức các món đặc sản như lẩu gà lá é, bánh căn Đà Lạt hoặc bánh tráng nướng. Một bữa ăn trung bình tại nhà hàng có chi phí khoảng 100.000 - 200.000 VNĐ/người.\n\nTổng chi phí ước tính cho hai ngày bao gồm ăn uống, tham quan và các hoạt động khác có thể từ 1.000.000 - 1.500.000 VNĐ/người, tùy theo lựa chọn của bạn. Hy vọng bạn có một chuyến đi thú vị!"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:52.956759+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Khi ở Đà Lạt trong 2 ngày mà trời mưa, bạn vẫn có nhiều lựa chọn thú vị để khám phá những điểm trong nhà. Dưới đây là một số gợi ý và chi phí ước tính:\n\n1. **Thăm các quán cà phê nổi tiếng**: Nhiều quán có không gian đẹp và lý tưởng để ngắm mưa. Một số quán được yêu thích là Mê Linh Coffee Garden (c"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:52.957758+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 7168.42,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:32:52.955758+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 7165.5,
+      "prompt_tokens": 105,
+      "completion_tokens": 500,
+      "total_tokens": 605,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Khi ở Đà Lạt trong 2 ngày mà trời mưa, bạn vẫn có nhiều lựa chọn thú vị để khám phá những điểm trong nhà. Dưới đây là một số gợi ý và chi phí ước tính:\n\n1. **Thăm các quán cà phê nổi tiếng**: Nhiều quán có không gian đẹp và lý tưởng để ngắm mưa. Một số quán được yêu thích là Mê Linh Coffee Garden (có tầm nhìn ra đồi núi), The Married Beans, hay An Café. Giá nước uống dao động từ 30.000 - 70.000 VNĐ mỗi ly.\n\n2. **Tham quan các bảo tàng và nhà trưng bày**:\n   - **Dinh Bảo Đại**: Tòa dinh thự lịch sử với kiến trúc hoàng gia Pháp. Vé vào cửa khoảng 20.000 VNĐ.\n   - **Crazy House**: Còn được biết đến với tên gọi là Biệt thự Hằng Nga, nơi này thu hút du khách bởi kiến trúc kỳ quái và độc đáo. Vé vào cửa khoảng 50.000 VNĐ.\n\n3. **Tham quan các làng nghề và mua sắm**:\n   - **Làng tranh thêu XQ Đà Lạt**: Tại đây bạn có thể xem quá trình làm tranh thêu truyền thống. Vé vào cổng miễn phí, bạn có thể mua vài bức tranh thêu làm kỷ niệm.\n\n4. **Thư giãn trong spa hoặc massage**: Đà Lạt có nhiều dịch vụ spa thư giãn, giúp bạn tận hưởng không khí se lạnh. Giá tham khảo khoảng 200.000 - 500.000 VNĐ/lần.\n\n5. **Khám phá các nhà hàng nổi tiếng**: Thưởng thức các món đặc sản như lẩu gà lá é, bánh căn Đà Lạt hoặc bánh tráng nướng. Một bữa ăn trung bình tại nhà hàng có chi phí khoảng 100.000 - 200.000 VNĐ/người.\n\nTổng chi phí ước tính cho hai ngày bao gồm ăn uống, tham quan và các hoạt động khác có thể từ 1.000.000 - 1.500.000 VNĐ/người, tùy theo lựa chọn của bạn. Hy vọng bạn có một chuyến đi thú vị!",
+  "metrics": {
+    "duration_ms": 7168.42,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 105,
+    "completion_tokens": 500,
+    "total_tokens": 605,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

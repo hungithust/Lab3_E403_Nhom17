@@ -1,0 +1,13 @@
+{
+  "num_tasks": 10,
+  "success_rate": 1.0,
+  "p50_latency_ms": 8168.14,
+  "p99_latency_ms": 11936.35,
+  "avg_tokens_per_task": 691.3,
+  "total_cost_usd": 0.0,
+  "avg_loops_per_task": 1.0,
+  "error_breakdown": {},
+  "task_type_breakdown": {
+    "chatbot": 10
+  }
+}

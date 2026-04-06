@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_07_run1",
+  "created_at": "2026-04-06T16:32:52.971134+00:00",
+  "started_at": "2026-04-06T16:32:52.972133+00:00",
+  "finished_at": "2026-04-06T16:32:58.913751+00:00",
+  "task_type": "chatbot",
+  "query": "Tôi muốn đi từ Đà Nẵng đến Hội An trong ngày, ăn trưa hải sản, tối quay về. Tính sơ bộ thời gian và chi phí.",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Để có chuyến đi từ Đà Nẵng đến Hội An trong ngày, bạn có thể sắp xếp theo lịch trình như sau:\n\n### Buổi sáng:\n1. **Khởi hành từ Đà Nẵng**:\n   - **Thời gian di chuyển**: Khoảng 30-45 phút.\n   - **Phương tiện**: \n     - Xe máy (giá thuê khoảng 100.000 - 150.000 VND/ngày).\n     - Taxi/Grab (giá khoảng ",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:32:52.972133+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Tôi muốn đi từ Đà Nẵng đến Hội An trong ngày, ăn trưa hải sản, tối quay về. Tính sơ bộ thời gian và chi phí."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:52.973134+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Tôi muốn đi từ Đà Nẵng đến Hội An trong ngày, ăn trưa hải sản, tối quay về. Tính sơ bộ thời gian và chi phí."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:58.909752+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:32:58.909752+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 5935.83,
+        "prompt_tokens": 118,
+        "completion_tokens": 478,
+        "total_tokens": 596,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:58.909752+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Để có chuyến đi từ Đà Nẵng đến Hội An trong ngày, bạn có thể sắp xếp theo lịch trình như sau:\n\n### Buổi sáng:\n1. **Khởi hành từ Đà Nẵng**:\n   - **Thời gian di chuyển**: Khoảng 30-45 phút.\n   - **Phương tiện**: \n     - Xe máy (giá thuê khoảng 100.000 - 150.000 VND/ngày).\n     - Taxi/Grab (giá khoảng 250.000 - 350.000 VND/chiều).\n     - Xe buýt Hội An (giá vé khoảng 30.000 VND/lượt).\n\n### Buổi trưa:\n2. **Ăn trưa hải sản tại Hội An**:\n   - Bạn có thể chọn một số nhà hàng hải sản dọc bờ sông Thu Bồn hoặc tại biển Cửa Đại, An Bàng.\n   - **Gợi ý nhà hàng**: \n     - Nhà hàng Cua Đá.\n     - Nhà hàng Nhà Cũ Hội An.\n   - **Chi phí ước tính**: Khoảng 150.000 - 300.000 VND/người.\n\n### Buổi chiều:\n3. **Tham quan khu phố cổ Hội An**:\n   - Dạo quanh các con phố, thăm chùa Cầu, hoặc các hội quán.\n   - Giá vé tham quan khoảng 120.000 VND/người.\n\n### Buổi tối:\n4. **Trở về Đà Nẵng**:\n   - Khởi hành từ Hội An khoảng 18:00 để về lại Đà Nẵng.\n   - Bạn có thể chọn quay về qua đường ven biển để đi ngang Ngũ Hành Sơn nếu muốn dừng lại tham quan thêm.\n\n### Tổng chi phí ước tính:\n- **Di chuyển**: Khoảng 500.000 - 800.000 VND (cả hai chiều taxi/Grab).\n- **Ăn uống**: Khoảng 150.000 - 300.000 VND/người.\n- **Tham quan**: 120.000 VND/người.\n\nHy vọng lịch trình này phù hợp với bạn! Chúc bạn có chuyến đi vui vẻ và thú vị."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:58.912751+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Để có chuyến đi từ Đà Nẵng đến Hội An trong ngày, bạn có thể sắp xếp theo lịch trình như sau:\n\n### Buổi sáng:\n1. **Khởi hành từ Đà Nẵng**:\n   - **Thời gian di chuyển**: Khoảng 30-45 phút.\n   - **Phương tiện**: \n     - Xe máy (giá thuê khoảng 100.000 - 150.000 VND/ngày).\n     - Taxi/Grab (giá khoảng "
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:32:58.913751+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 5941.69,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:32:58.909752+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 5935.83,
+      "prompt_tokens": 118,
+      "completion_tokens": 478,
+      "total_tokens": 596,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Để có chuyến đi từ Đà Nẵng đến Hội An trong ngày, bạn có thể sắp xếp theo lịch trình như sau:\n\n### Buổi sáng:\n1. **Khởi hành từ Đà Nẵng**:\n   - **Thời gian di chuyển**: Khoảng 30-45 phút.\n   - **Phương tiện**: \n     - Xe máy (giá thuê khoảng 100.000 - 150.000 VND/ngày).\n     - Taxi/Grab (giá khoảng 250.000 - 350.000 VND/chiều).\n     - Xe buýt Hội An (giá vé khoảng 30.000 VND/lượt).\n\n### Buổi trưa:\n2. **Ăn trưa hải sản tại Hội An**:\n   - Bạn có thể chọn một số nhà hàng hải sản dọc bờ sông Thu Bồn hoặc tại biển Cửa Đại, An Bàng.\n   - **Gợi ý nhà hàng**: \n     - Nhà hàng Cua Đá.\n     - Nhà hàng Nhà Cũ Hội An.\n   - **Chi phí ước tính**: Khoảng 150.000 - 300.000 VND/người.\n\n### Buổi chiều:\n3. **Tham quan khu phố cổ Hội An**:\n   - Dạo quanh các con phố, thăm chùa Cầu, hoặc các hội quán.\n   - Giá vé tham quan khoảng 120.000 VND/người.\n\n### Buổi tối:\n4. **Trở về Đà Nẵng**:\n   - Khởi hành từ Hội An khoảng 18:00 để về lại Đà Nẵng.\n   - Bạn có thể chọn quay về qua đường ven biển để đi ngang Ngũ Hành Sơn nếu muốn dừng lại tham quan thêm.\n\n### Tổng chi phí ước tính:\n- **Di chuyển**: Khoảng 500.000 - 800.000 VND (cả hai chiều taxi/Grab).\n- **Ăn uống**: Khoảng 150.000 - 300.000 VND/người.\n- **Tham quan**: 120.000 VND/người.\n\nHy vọng lịch trình này phù hợp với bạn! Chúc bạn có chuyến đi vui vẻ và thú vị.",
+  "metrics": {
+    "duration_ms": 5941.69,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 118,
+    "completion_tokens": 478,
+    "total_tokens": 596,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

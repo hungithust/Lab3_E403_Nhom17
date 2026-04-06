@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "session_id": "bench_chatbot_20260406T163154Z_09_run1",
+  "created_at": "2026-04-06T16:33:07.216359+00:00",
+  "started_at": "2026-04-06T16:33:07.217367+00:00",
+  "finished_at": "2026-04-06T16:33:17.330037+00:00",
+  "task_type": "chatbot",
+  "query": "Tạo lịch trình 2 ngày ở Phú Quốc cho nhóm bạn thích biển, cà phê và chụp ảnh.",
+  "provider": "gpt-4o",
+  "success": true,
+  "answer_preview": "Chào bạn! Dưới đây là gợi ý lịch trình 2 ngày ở Phú Quốc dành cho nhóm bạn thích biển, cà phê và chụp ảnh:\n\n**Ngày 1: Khám phá phía Bắc Phú Quốc**\n\n- **Sáng:**\n  - **Bãi Sao:** Bắt đầu ngày mới tại Bãi Sao, một trong những bãi biển đẹp nhất Phú Quốc với cát trắng mịn và nước biển trong xanh. Các bạn",
+  "events": [
+    {
+      "timestamp": "2026-04-06T16:33:07.217367+00:00",
+      "event": "TASK_START",
+      "data": {
+        "task_type": "chatbot",
+        "provider": "gpt-4o",
+        "query": "Tạo lịch trình 2 ngày ở Phú Quốc cho nhóm bạn thích biển, cà phê và chụp ảnh."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:07.218432+00:00",
+      "event": "USER_INPUT",
+      "data": {
+        "input": "Tạo lịch trình 2 ngày ở Phú Quốc cho nhóm bạn thích biển, cà phê và chụp ảnh."
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:17.328037+00:00",
+      "event": "LLM_CALL",
+      "data": {
+        "timestamp": "2026-04-06T16:33:17.328037+00:00",
+        "provider": "openai",
+        "model": "gpt-4o",
+        "latency_ms": 10108.87,
+        "prompt_tokens": 108,
+        "completion_tokens": 742,
+        "total_tokens": 850,
+        "estimated_cost_usd": 0.0
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:17.329038+00:00",
+      "event": "CHATBOT_RESPONSE",
+      "data": {
+        "response": "Chào bạn! Dưới đây là gợi ý lịch trình 2 ngày ở Phú Quốc dành cho nhóm bạn thích biển, cà phê và chụp ảnh:\n\n**Ngày 1: Khám phá phía Bắc Phú Quốc**\n\n- **Sáng:**\n  - **Bãi Sao:** Bắt đầu ngày mới tại Bãi Sao, một trong những bãi biển đẹp nhất Phú Quốc với cát trắng mịn và nước biển trong xanh. Các bạn có thể bơi lội hoặc nằm thư giãn trên bãi biển.\n  - **Địa Trung Hải Phú Quốc:** Di chuyển đến khu Địa Trung Hải để check-in tại những điểm chụp ảnh đẹp, mang phong cách châu Âu. Những bức tường màu sắc và kiến trúc độc đáo sẽ tạo nên những bức ảnh ấn tượng.\n\n- **Trưa:**\n  - **Ăn trưa tại nhà hàng hải sản địa phương:** Thưởng thức những món hải sản tươi ngon tại một trong các quán ăn dọc theo bãi biển.\n\n- **Chiều:**\n  - **Cáp treo Hòn Thơm:** Trải nghiệm cáp treo vượt biển dài nhất thế giới để ngắm nhìn toàn cảnh đảo Phú Quốc và biển xanh bao la từ trên cao.\n  - **Bãi biển Hòn Thơm:** Tận hưởng không gian biển tuyệt vời, các bạn có thể thử sức với các hoạt động thể thao dưới nước như lặn biển hoặc chèo thuyền kayak.\n\n- **Tối:**\n  - **Dinh Cậu:** Tham quan ngôi đền thiêng và ngắm hoàng hôn tuyệt đẹp tại đây.\n  - **Chợ đêm Phú Quốc:** Khám phá ẩm thực địa phương và mua sắm quà lưu niệm. Đừng quên thưởng thức kem dừa và các món ăn đường phố hấp dẫn.\n\n**Ngày 2: Khám phá phía Nam và Trung tâm Phú Quốc**\n\n- **Sáng:**\n  - **Bãi Dài:** Một trong những bãi biển đẹp và dài nhất Phú Quốc, lý tưởng để thư giãn và chụp ảnh.\n  - **VinWonders Phú Quốc:** Nếu nhóm bạn thích vui chơi và chụp ảnh, VinWonders là lựa chọn tuyệt vời với các hoạt động giải trí phong phú.\n\n- **Trưa:**\n  - **Vinpearl Safari:** Tham quan vườn thú mở lớn nhất Việt Nam, nơi các bạn có thể khám phá thế giới động vật hoang dã và chụp nhiều hình thú vị.\n\n- **Chiều:**\n  - **Cà phê Chuồn Chuồn:** Thưởng thức cà phê trong khuôn viên tuyệt đẹp với tầm nhìn bao quát toàn đảo, nơi đây vừa yên tĩnh vừa lý tưởng cho những bức ảnh nghệ thuật.\n  - **Nhà thùng nước mắm Phú Quốc:** Thăm quan quy trình sản xuất nước mắm nổi tiếng và tìm hiểu văn hóa địa phương.\n\n- **Tối:**\n  - **Dạo chơi khu phố đi bộ:** Kết thúc hành trình bằng việc dạo chơi và thưởng thức âm nhạc đường phố tại khu phố đi bộ ở trung tâm thị trấn Dương Đông.\n\nChúc bạn và nhóm bạn có một chuyến đi vui vẻ và đầy những bức ảnh đẹp ở Phú Quốc nhé! Nếu cần thêm thông tin hoặc hỗ trợ, đừng ngần ngại hỏi mình!"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:17.330037+00:00",
+      "event": "FINAL_ANSWER",
+      "data": {
+        "answer_preview": "Chào bạn! Dưới đây là gợi ý lịch trình 2 ngày ở Phú Quốc dành cho nhóm bạn thích biển, cà phê và chụp ảnh:\n\n**Ngày 1: Khám phá phía Bắc Phú Quốc**\n\n- **Sáng:**\n  - **Bãi Sao:** Bắt đầu ngày mới tại Bãi Sao, một trong những bãi biển đẹp nhất Phú Quốc với cát trắng mịn và nước biển trong xanh. Các bạn"
+      }
+    },
+    {
+      "timestamp": "2026-04-06T16:33:17.330037+00:00",
+      "event": "TASK_END",
+      "data": {
+        "success": true,
+        "duration_ms": 10112.72,
+        "extra": {
+          "num_steps": 1
+        }
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "timestamp": "2026-04-06T16:33:17.328037+00:00",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "latency_ms": 10108.87,
+      "prompt_tokens": 108,
+      "completion_tokens": 742,
+      "total_tokens": 850,
+      "estimated_cost_usd": 0.0
+    }
+  ],
+  "thoughts": [],
+  "actions": [],
+  "observations": [],
+  "errors": [],
+  "final_answer": "Chào bạn! Dưới đây là gợi ý lịch trình 2 ngày ở Phú Quốc dành cho nhóm bạn thích biển, cà phê và chụp ảnh:\n\n**Ngày 1: Khám phá phía Bắc Phú Quốc**\n\n- **Sáng:**\n  - **Bãi Sao:** Bắt đầu ngày mới tại Bãi Sao, một trong những bãi biển đẹp nhất Phú Quốc với cát trắng mịn và nước biển trong xanh. Các bạn có thể bơi lội hoặc nằm thư giãn trên bãi biển.\n  - **Địa Trung Hải Phú Quốc:** Di chuyển đến khu Địa Trung Hải để check-in tại những điểm chụp ảnh đẹp, mang phong cách châu Âu. Những bức tường màu sắc và kiến trúc độc đáo sẽ tạo nên những bức ảnh ấn tượng.\n\n- **Trưa:**\n  - **Ăn trưa tại nhà hàng hải sản địa phương:** Thưởng thức những món hải sản tươi ngon tại một trong các quán ăn dọc theo bãi biển.\n\n- **Chiều:**\n  - **Cáp treo Hòn Thơm:** Trải nghiệm cáp treo vượt biển dài nhất thế giới để ngắm nhìn toàn cảnh đảo Phú Quốc và biển xanh bao la từ trên cao.\n  - **Bãi biển Hòn Thơm:** Tận hưởng không gian biển tuyệt vời, các bạn có thể thử sức với các hoạt động thể thao dưới nước như lặn biển hoặc chèo thuyền kayak.\n\n- **Tối:**\n  - **Dinh Cậu:** Tham quan ngôi đền thiêng và ngắm hoàng hôn tuyệt đẹp tại đây.\n  - **Chợ đêm Phú Quốc:** Khám phá ẩm thực địa phương và mua sắm quà lưu niệm. Đừng quên thưởng thức kem dừa và các món ăn đường phố hấp dẫn.\n\n**Ngày 2: Khám phá phía Nam và Trung tâm Phú Quốc**\n\n- **Sáng:**\n  - **Bãi Dài:** Một trong những bãi biển đẹp và dài nhất Phú Quốc, lý tưởng để thư giãn và chụp ảnh.\n  - **VinWonders Phú Quốc:** Nếu nhóm bạn thích vui chơi và chụp ảnh, VinWonders là lựa chọn tuyệt vời với các hoạt động giải trí phong phú.\n\n- **Trưa:**\n  - **Vinpearl Safari:** Tham quan vườn thú mở lớn nhất Việt Nam, nơi các bạn có thể khám phá thế giới động vật hoang dã và chụp nhiều hình thú vị.\n\n- **Chiều:**\n  - **Cà phê Chuồn Chuồn:** Thưởng thức cà phê trong khuôn viên tuyệt đẹp với tầm nhìn bao quát toàn đảo, nơi đây vừa yên tĩnh vừa lý tưởng cho những bức ảnh nghệ thuật.\n  - **Nhà thùng nước mắm Phú Quốc:** Thăm quan quy trình sản xuất nước mắm nổi tiếng và tìm hiểu văn hóa địa phương.\n\n- **Tối:**\n  - **Dạo chơi khu phố đi bộ:** Kết thúc hành trình bằng việc dạo chơi và thưởng thức âm nhạc đường phố tại khu phố đi bộ ở trung tâm thị trấn Dương Đông.\n\nChúc bạn và nhóm bạn có một chuyến đi vui vẻ và đầy những bức ảnh đẹp ở Phú Quốc nhé! Nếu cần thêm thông tin hoặc hỗ trợ, đừng ngần ngại hỏi mình!",
+  "metrics": {
+    "duration_ms": 10112.72,
+    "num_llm_calls": 1,
+    "num_steps": 1,
+    "num_tool_calls": 0,
+    "prompt_tokens": 108,
+    "completion_tokens": 742,
+    "total_tokens": 850,
+    "estimated_cost_usd": 0.0,
+    "error_count": 0
+  },
+  "extra": {
+    "num_steps": 1
+  }
+}

@@ -1,0 +1,74 @@
+# Báo cáo nhóm: Lab 3 - Hệ thống Agentic mức sẵn sàng triển khai
+
+- **Tên nhóm**: Nhóm 17
+- **Thành viên**: Nguyễn Viết Hùng, Nguyễn Công Thành, Nguyễn Xuân Tùng, Trần Quốc Khánh, Đỗ Đình Hoàn
+- **Ngày triển khai**: 6/4/2026
+
+---
+
+## 1. Tóm tắt điều hành
+- Repo xây dựng một trợ lý du lịch Việt Nam với 2 chế độ: `TravelChatbot` làm baseline và `TravelReActAgent` có gọi tool.
+- **Tỷ lệ thành công**: 90% .
+- **Kết quả chính**: Agent mạnh hơn ở các câu hỏi lập kế hoạch nhiều bước vì từng con số có thể được kiểm chứng bằng tool, trong khi chatbot trả lời một lượt và dễ hallucinate hơn.
+
+---
+
+## 2. Kiến trúc hệ thống & công cụ
+### 2.1 Vòng lặp ReAct
+`Truy vấn người dùng -> Thought -> Action(JSON) -> Tool -> Observation -> ... -> Final Answer`
+- Agent giới hạn suy luận ở `MAX_STEPS = 15`.
+- CLI hỗ trợ `chatbot`, `agent`, `compare`, `demo`; giao diện web dùng Flask + SocketIO.
+
+### 2.2 Danh sách công cụ
+| Tên tool | Định dạng đầu vào | Mục đích sử dụng |
+| :--- | :--- | :--- |
+| `weather_tool` | `location, date` | Lấy thời tiết hiện tại qua OpenWeatherMap. |
+| `attraction_search_tool` | `location, interests, max_results` | Tìm điểm tham quan qua Foursquare. |
+| `restaurant_search_tool` | `location, cuisine, budget_per_person_vnd, max_results` | Tìm nhà hàng theo món ăn/ngân sách. |
+| `distance_tool` | `origin, destination, mode` | Ước tính quãng đường/thời gian bằng geocoding + Haversine. |
+| `cost_calculator_tool` | `num_days, ...cost fields` | Tính bảng phân rã chi phí chuyến đi. |
+
+### 2.3 Các nhà cung cấp LLM
+- **Chính**: OpenAI (`gpt-4o`)
+- **Dự phòng**: Google Gemini (`gemini-1.5-flash`)
+- **Tùy chọn local**: GGUF qua `llama-cpp`
+
+---
+
+## 3. Telemetry & hiệu năng
+- **Độ trễ trung bình (P50)**: 8168.14
+- **Độ trễ cực đại (P99)**: 11936.35
+- **Số token trung bình mỗi tác vụ**: 691.3
+- **Tổng chi phí bộ test**: 0.0
+- Repo có hướng dẫn đánh giá cho token/latency/loop/error metrics và thiết kế ghi log ra file, nhưng không có đầu ra thực tế trong thư mục `logs/` được commit.
+
+---
+
+## 4. Phân tích nguyên nhân gốc rễ (RCA)
+### Trường hợp 1: Sai lệch ở module logging khi chạy
+- **Đầu vào**: bất kỳ truy vấn nào chạy qua `TravelChatbot` hoặc `TravelReActAgent`.
+- **Quan sát**: cả hai lớp đều import `TelemetryLogger` và `get_logger`, nhưng `src/utils/logger.py` trong repo chỉ định nghĩa `IndustryLogger` và `logger`.
+- **Nguyên nhân gốc**: giao diện module không nhất quán, nên chương trình có thể lỗi ngay trước khi vòng lặp agent bắt đầu nếu không có file logger khác chưa được commit.
+- **Tác động**: cản trở việc thu telemetry và có thể làm hỏng chế độ demo/compare.
+
+### Trường hợp 2: Schema lỗi của các tool chưa thống nhất
+- `weather_tool` trả về `{"status":"error","message":...}`, trong khi các tool khác đôi khi trả về `{"error":...}`.
+- Điều này làm recovery phía agent và render ở UI khó ổn định vì observation không có một chuẩn chung.
+
+---
+
+## 5. Thí nghiệm & ablation study
+### Thí nghiệm 1: Chatbot so với ReAct Agent
+- **Khác biệt**: baseline chỉ dùng một lần gọi LLM; agent dùng nhiều vòng gọi tool có trace.
+- **Kết quả**: theo thiết kế, agent nên tốt hơn ở các câu hỏi lịch trình cần kết hợp thời tiết + nhà hàng + lộ trình + chi phí trong cùng một câu trả lời.
+
+### Thí nghiệm 2: Trừu tượng hóa nhà cung cấp model
+- **Khác biệt**: cùng một ứng dụng có thể chuyển giữa OpenAI, Gemini và local GGUF qua `.env`.
+- **Kết quả**: tăng tính linh hoạt và kiểm soát chi phí, nhưng repo chưa có bảng benchmark để so sánh chất lượng/độ trễ giữa các lựa chọn.
+
+---
+
+## 6. Đánh giá mức sẵn sàng triển khai thực tế
+- **Bảo mật**: API key được tách ra `.env`; request có `timeout=10s`.
+- **Guardrails**: `MAX_STEPS = 15` giúp tránh vòng lặp ReAct vô hạn.
+- **Khả năng mở rộng**: lớp trừu tượng provider và web UI bằng Flask là nền tảng tốt, nhưng để production vẫn cần chuẩn hóa schema lỗi, thêm caching/retry, kiểm tra đầu vào, và dashboard telemetry được commit rõ ràng.

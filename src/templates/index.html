@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agent</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Travel Agent: Chatbot vs ReAct Agent</h1>
+        <form id="query-form">
+            <label for="query">Enter your query:</label><br>
+            <textarea id="query" name="query" rows="4" required></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="progress" class="progress" style="margin-top: 20px; display: none;">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+        <h2>Agent Steps</h2>
+        <ul id="agent-steps"></ul>
+
+        <h2>Final Answer</h2>
+        <p id="final-answer"></p>
+
+        <h2>Chatbot Response</h2>
+        <p id="chatbot-response"></p>
+    </div>
+
+    <script>
+        const socket = io();
+        const form = document.getElementById('query-form');
+        const progressBar = document.getElementById('progress-bar');
+        const progress = document.getElementById('progress');
+        const stepsList = document.getElementById('agent-steps');
+        const finalAnswer = document.getElementById('final-answer');
+        const chatbotResponse = document.getElementById('chatbot-response');
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const query = document.getElementById('query').value;
+
+            // Reset UI
+            stepsList.innerHTML = '';
+            finalAnswer.textContent = '';
+            chatbotResponse.textContent = '';
+            progress.style.display = 'block';
+            progressBar.style.width = '0';
+
+            // Start Chatbot
+            socket.emit('start_chatbot', { query });
+
+            // Start Agent
+            socket.emit('start_agent', { query });
+        });
+
+        socket.on('agent_step', (step) => {
+            // Update progress bar
+            progressBar.style.width = `${step.progress}%`;
+
+            // Add step to list
+            const li = document.createElement('li');
+            li.textContent = `Step ${step.step}: ${step.thought || ''}`;
+            stepsList.appendChild(li);
+
+            // Display final answer if available
+            if (step.final_answer) {
+                finalAnswer.textContent = step.final_answer;
+                progress.style.display = 'none';
+            }
+        });
+
+        socket.on('chatbot_response', (data) => {
+            chatbotResponse.textContent = data.response;
+        });
+    </script>
+</body>
+</html>
